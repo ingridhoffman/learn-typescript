@@ -12,6 +12,14 @@
 
 \*\*\* Steps 1 and 2 can be combined by `npx create-react-app hello-tsx --typescript`
 
-### Basic Types
+### Types
+
+Basic types include string, number, boolean, array.
 
 Declare variable and type: `let variable: string = "This is the String";`
+
+Tuple = array that may contain differnt types Enum = object
+
+Any = can be anything (only use if no other option)
+
+Void = used when a function is not returning anything
