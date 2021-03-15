@@ -37,6 +37,9 @@ function App() {
 		return pt.x.toString() + " and " + pt.y.toString();
 	};
 	const testPointFunction = pointFunction({ x: 1, y: 2 });
+	// literal type
+	const numberFunction = (num: 1 | 2): void => {};
+	// numberFunction(3); will give an error because 3 is not 1 or 2
 
 	return (
 		<div className="App">

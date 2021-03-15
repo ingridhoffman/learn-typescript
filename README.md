@@ -38,3 +38,17 @@ name is capitalized
 
 Interface is another object type name - can typically be used interchangeably with type but
 interface can have new properties added later
+
+Type assertions can be used to make an inferred type more specific
+
+Literal types can identify the variable as a specific string, number, or other - this can be useful
+when used with unions to limit acceptable choices for a variable
+
+strictNullChecks on -> null or undefined will not pass type check for any other type so functions
+will need to check for null or undefined value
+
+## References
+
+https://www.typescriptlang.org/docs/handbook/intro.html
+
+https://react-typescript-cheatsheet.netlify.app/docs/basic/setup
